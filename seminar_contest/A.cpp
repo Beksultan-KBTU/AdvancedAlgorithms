@@ -4,6 +4,8 @@
 #include <stack>
 #include <vector>
 
+// skiiiiil
+
 template <typename T>
 struct Node {
     T value, pref_max;
@@ -120,7 +122,8 @@ int main() {
     //         std::cout << "Start weight: " << start_weight << std::endl;
 
     //         for (int current_weight = start_weight;
-    //              current_weight <= max_weight; current_weight += group.weight) {
+    //              current_weight <= max_weight; current_weight +=
+    //              group.weight) {
     //             max_queue.IncrementAll(group.cost);
     //             max_queue.PushBack(last_dp[current_weight]);
 
@@ -147,8 +150,6 @@ int main() {
     //     }
     //     std::cout << std::endl;
     // }
-
-
 
     MaxQueue<int> max_queue;
 
